@@ -25,5 +25,5 @@ do
 	unset stat
 	unset header
 done
-echo "$(( $x * 100 / $numblocks ))%"
+echo "$(( $x * 100 / $numblocks ))% of last $numblocks blocks are signalling for Taproot activation"
 
